@@ -7,7 +7,7 @@ public class Problem13_CurrencyConvertor {
         String FromCurrency = console.nextLine();
         String ToCurrency = console.nextLine();
         double result;
-        //From BGN
+        //From BGN:
 
         if (FromCurrency.equals("BGN") && ToCurrency.equals("USD")) {
             result = money * 1 / 1.79549;
@@ -24,7 +24,7 @@ public class Problem13_CurrencyConvertor {
             System.out.printf("%.2f GBP", result);
         }
 
-        //From USD
+        //From USD:
 
         if (FromCurrency.equals("USD") && ToCurrency.equals("BGN")) {
             result = money * (1.79549 / 1);
@@ -41,7 +41,7 @@ public class Problem13_CurrencyConvertor {
             System.out.printf("%.2f GBP", result);
         }
 
-        //From EUR
+        //From EUR:
 
         if (FromCurrency.equals("EUR") && ToCurrency.equals("BGN")) {
             result = money * 1 / (1 / 1.955581);
@@ -58,7 +58,7 @@ public class Problem13_CurrencyConvertor {
             System.out.printf("%.2f GBP", result);
         }
 
-        //From GBP
+        //From GBP:
 
         if (FromCurrency.equals("GBP") && ToCurrency.equals("BGN")) {
             result = money * 1 / (1 / 2.53405);
