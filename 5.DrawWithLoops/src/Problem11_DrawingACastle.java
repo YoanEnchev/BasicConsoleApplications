@@ -110,7 +110,5 @@ public class Problem11_DrawingACastle {
                 System.out.print("/");
             }
         }
-
-
     }
 }
